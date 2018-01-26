@@ -118,6 +118,15 @@ header {
 	background-size: cover;
 }
 
+.love {
+	position: relative;
+	width: 100%;
+	color: white;
+	background: rgba(28, 36, 65, 0.93);
+	background: url('img/header.jpg');
+	background-size: cover;
+}
+
 header .table {
 	display: table;
 	height: 100%;
@@ -167,6 +176,7 @@ nav.navbar {
 	width: 100vw;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	font-weight: bold
 }
 
 nav.navbar .navbar-nav li.active a:not(.btn) {
@@ -1003,6 +1013,10 @@ footer .social-footer li:hover a {
 
 .white {
 	color: white;
+}
+
+.golden {
+	color: gold;
 }
 
 .light-white {
